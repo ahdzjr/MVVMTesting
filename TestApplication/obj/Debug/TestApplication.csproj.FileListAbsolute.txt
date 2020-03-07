@@ -140,3 +140,8 @@ C:\Users\Albert\Documents\Programming\Projects\CSharp\WPF\MVVMTesting\TestApplic
 C:\Users\Albert\Documents\Programming\Projects\CSharp\WPF\MVVMTesting\TestApplication\obj\Debug\TestApplication.csproj.CopyComplete
 C:\Users\Albert\Documents\Programming\Projects\CSharp\WPF\MVVMTesting\TestApplication\obj\Debug\TestApplication.exe
 C:\Users\Albert\Documents\Programming\Projects\CSharp\WPF\MVVMTesting\TestApplication\obj\Debug\TestApplication.pdb
+C:\Users\Albert\Documents\Programming\Projects\CSharp\WPF\MVVMTesting\TestApplication\bin\Debug\EntityFramework.dll
+C:\Users\Albert\Documents\Programming\Projects\CSharp\WPF\MVVMTesting\TestApplication\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Albert\Documents\Programming\Projects\CSharp\WPF\MVVMTesting\TestApplication\bin\Debug\EntityFramework.xml
+C:\Users\Albert\Documents\Programming\Projects\CSharp\WPF\MVVMTesting\TestApplication\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Albert\Documents\Programming\Projects\CSharp\WPF\MVVMTesting\TestApplication\obj\Debug\TestApplication.Migrations.Test.resources
