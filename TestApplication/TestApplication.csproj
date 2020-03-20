@@ -127,6 +127,7 @@
       <HintPath>..\packages\System.ComponentModel.Annotations.4.7.0\lib\net461\System.ComponentModel.Annotations.dll</HintPath>
     </Reference>
     <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Configuration" />
     <Reference Include="System.Data" />
     <Reference Include="System.Data.Common, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Data.Common.4.3.0\lib\net451\System.Data.Common.dll</HintPath>
@@ -182,11 +183,26 @@
     <Compile Include="Migrations\202003070750388_Test.designer.cs">
       <DependentUpon>202003070750388_Test.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\202003091650569_AddMSI.cs" />
+    <Compile Include="Migrations\202003091650569_AddMSI.designer.cs">
+      <DependentUpon>202003091650569_AddMSI.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003091712067_AdjustEmail.cs" />
+    <Compile Include="Migrations\202003091712067_AdjustEmail.designer.cs">
+      <DependentUpon>202003091712067_AdjustEmail.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003091754077_AddFK.cs" />
+    <Compile Include="Migrations\202003091754077_AddFK.designer.cs">
+      <DependentUpon>202003091754077_AddFK.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\202003100412431_Simplify.cs" />
+    <Compile Include="Migrations\202003100412431_Simplify.designer.cs">
+      <DependentUpon>202003100412431_Simplify.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AddressModel.cs" />
     <Compile Include="Models\AppointmentModel.cs" />
     <Compile Include="Models\CustomerModel.cs" />
-    <Compile Include="Models\EmailModel.cs" />
     <Compile Include="Models\VehicleModel.cs" />
     <Compile Include="ViewModels\ShellViewModel.cs" />
     <Compile Include="Views\ShellView.xaml.cs">
@@ -217,6 +233,18 @@
     </Compile>
     <EmbeddedResource Include="Migrations\202003070750388_Test.resx">
       <DependentUpon>202003070750388_Test.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003091650569_AddMSI.resx">
+      <DependentUpon>202003091650569_AddMSI.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003091712067_AdjustEmail.resx">
+      <DependentUpon>202003091712067_AdjustEmail.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003091754077_AddFK.resx">
+      <DependentUpon>202003091754077_AddFK.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\202003100412431_Simplify.resx">
+      <DependentUpon>202003100412431_Simplify.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

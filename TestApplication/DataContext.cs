@@ -13,7 +13,6 @@ namespace TestApplication
         public DbSet<CustomerModel> Customers { get; set; }
         public DbSet<AddressModel> Addresses { get; set; }
         public DbSet<VehicleModel> Vehicles { get; set; }
-        public DbSet<EmailModel> EmailAddresses { get; set; }
         public DbSet<AppointmentModel> Appointments { get; set; }
 
     }

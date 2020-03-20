@@ -65,14 +65,19 @@
                                      Padding="2"/>
 
                             <!-- DataGrid -->
-                            <DataGrid Grid.Column="1" Grid.Row="1"
-                                      x:Name="Customer" AlternatingRowBackground="LightBlue" CanUserAddRows="True">
+
+                            <DataGrid Grid.Column="1" Grid.Row="1" ItemsSource="{Binding Path=Customers}">
+                                
+                            </DataGrid>
+                            
+                            <!--<DataGrid Grid.Column="1" Grid.Row="1"
+                                      x:Name="CustomerModel" AlternatingRowBackground="LightBlue" CanUserAddRows="True">
                                 <DataGrid.Columns>
                                     
-                                    <!-- Column 1 -->
+                                    --><!-- Column 1 --><!--
                                     <DataGridTextColumn Header="Full Name" Binding="{Binding Path=FullName}" />
                                     
-                                    <!-- Column 2 -->
+                                    --><!-- Column 2 --><!--
                                     <DataGridTemplateColumn Header="Primary Address">
                                         <DataGridTemplateColumn.CellTemplate>
                                             <DataTemplate>
@@ -92,10 +97,10 @@
                                         </DataGridTemplateColumn.CellEditingTemplate>
                                     </DataGridTemplateColumn>
                                     
-                                    <!-- Column 3 -->
+                                    --><!-- Column 3 --><!--
                                     <DataGridTextColumn Header="Email" Binding="{Binding Path=EmailAddress}" />
                                     
-                                    <!-- Column 4 -->
+                                    --><!-- Column 4 --><!--
                                     <DataGridTemplateColumn Header="Vehicles">
                                         <DataGridTemplateColumn.CellTemplate>
                                             <DataTemplate>
@@ -114,11 +119,8 @@
                                             </DataTemplate>
                                         </DataGridTemplateColumn.CellEditingTemplate>
                                     </DataGridTemplateColumn>
-                                    
-                                    <!-- Column 5 -->
-                                    <DataGridTextColumn Header="Last Appointment Date" Binding="{Binding Path=LastAppointment.EndTime, StringFormat=d}" />
                                 </DataGrid.Columns>
-                            </DataGrid>
+                            </DataGrid>-->
                             
                             
                             
